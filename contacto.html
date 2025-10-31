@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="icon" type="image/png" href="./IMG/onifavicon.png" sizes="32x32" />
+
+<link rel="stylesheet" href="angela.css" title="Contacto"> 
+<title>Contacto</title>
+</head>
+
+<body>
+<div id="contenedor">
+<div id="cabecera">
+<div class="arriba">
+	<a href="Index.html"><img src="./img/onifavicon.png" class="inicio" href="Index.html"></a>
+	<a class="angela">Ángela Páramo - 3D Character Artist</a>
+</div>
+</div>
+
+<div class="introcon">
+	<div class="textcon">Si deseas contactar con Ángela Páramo para cualquier tipo de trabajo 3D o bien para asesorarte sobre tu futuro en el arte del modelado 3D, rellena el formulario que te mostramos a continuación.</div>
+	<div class="art">Art by <a class="gold">Ángela Páramo</a></div>
+</div>
+ <div class="form-container">
+        <h2><a class="form">Formulario de Contacto<a></h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="estudios">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Estudios:</label>
+                    <select id="estudios" name="estudios" required>
+                        <option value="modelado">Modelado 3D</option>
+                        <option value="motion">Motion Design 3D</option>
+                        <option value="maya">Maya</option>
+						<option value="animacion">Animación 3D</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="direccion">Correo:</label>
+                    <input type="email" id="direccion" name="direccion" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="bio">¿Desea añadir otra información?:</label>
+                <textarea id="bio" name="bio" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>¿Quiere recibir información sobre nuestras academias de modelado y animación 3D a su correo electrónico?:</label>
+                <input type="radio" id="suscripcion_si" name="suscripcion" value="si">
+                <label for="suscripcion_si">Sí</label>
+                <input type="radio" id="suscripcion_no" name="suscripcion" value="no">
+                <label for="suscripcion_no">No</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+
+<div id="pie">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,475 @@
+@font-face {
+  font-family: "TrajanPro";
+  src: url("./fuentes/TrajanPro-Bold.otf");
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #313131;
+}
+
+.arriba{
+	display: flex;
+	width: 98.70%;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px;
+	height: 20px;
+	background-color:#000000;
+	color: #f1cd43;
+	text-align: center;
+}
+
+h1
+{
+	font-family: TrajanPro;
+	color: #f1cd43;
+	text-align: center;
+}
+
+.cuerpo{
+	padding: 50px;
+}
+
+img.portada
+{
+	width: 100%;
+}
+
+
+hr
+{
+	width: 100%;
+	background-color: #f1cd43;
+	height: 5px;
+	border: none;
+	border-radius: 10px;
+}
+
+table.opciones
+{
+	cursor: pointer;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #000000;
+	box-shadow: 5px 5px 5px #f1cd43;
+}
+
+img.busto
+{
+	border: 3px groove #313131;
+	border-radius: 10px;
+	margin: 20px;
+	width: 200px;
+}
+
+td.opc
+{
+	font-family: TrajanPro;
+	text-align: center;
+	width: 100%;
+	color: #f1cd43;
+}
+
+img.character
+{
+	border: 3px groove #313131;
+	border-radius: 10px;
+	margin: 20px;
+	width: 300px;
+}
+
+img.speed
+{
+	border: 3px groove #313131;
+	border-radius: 10px;
+	margin: 20px;
+	width: 300px;
+}
+
+img.estudio
+{
+	border: 3px groove #313131;
+	border-radius: 10px;
+	margin: 20px;
+	width: 400px;
+}
+img.ilustracion
+{
+	border: 3px groove #313131;
+	border-radius: 10px;
+	margin: 20px;
+	width: 300px;
+}
+
+
+
+button{
+	font-family: TrajanPro;
+	text-align:center;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom:30px;
+	width: 150px;
+	padding: 12px;
+	background-color: #f1cd43;
+	border: 3px groove #313131;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+hr.barra{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 30%;
+	background-color: #f1cd43;
+	height: 5px;
+	border: none;
+	border-radius: 10px;
+}
+
+h1.pen
+{
+	margin: 100px;
+	color: #f1cd43;
+	text-align: center;
+}
+
+img.peng{
+	width:35%;
+	margin-left: 32.5%;
+	margin-right: 32.5%;
+	margin-bottom: 20px;
+}
+
+p.intro2{
+	font-family: corbel;
+	margin-bottom: 40px;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-size: 20px;
+	color: #f1cd43;
+	text-align: center;
+}
+
+img.peng2{
+	width:75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-bottom: 20px;
+}
+
+img.asian{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+#menu{
+	float: left;
+	width: 15%
+}
+
+#contenido{
+	float: left;
+	width: 85%;
+}
+
+#contenido #principal{
+	float: left;
+	width: 78%;
+}
+#contenido #secundario{
+	margin-right: 2%;
+	float: left;
+	width: 15%;
+}
+
+#pie{
+	height: 40px;
+	background-color: #000000;
+	clear: both;
+}
+
+table.menu1{
+	margin:10px;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+ul{
+	margin-left:7%;
+}
+	
+.Redes1{
+	list-style-image: url("./IMG/insta.png");
+	text-align: justify;
+	color: #f1cd43;
+}
+
+.Redes2{
+	list-style-image: url("./IMG/linkedin.png");
+	text-align: justify;
+	color: #f1cd43;
+}
+
+.Redes3{
+	list-style-image: url("./IMG/artstation.png");
+	text-align: justify;
+	color: #f1cd43;
+}
+
+.Redes4{
+	list-style-image: url("./IMG/youtube.png");
+	text-align: justify;
+	color: #f1cd43;
+}
+
+.contact{
+	width: 75%;
+	background-color: #f1cd43;
+	height: 5px;
+	border: none;
+	border-radius: 10px;
+}
+
+p.cont{
+	font-family: corbel;
+	color: #ffffff;
+	text-align: center;
+	margin: 10px;
+}
+
+iframe.video{
+	margin-left: 75%;
+	margin-right: 75%;
+	height: 315px;
+	width: 560px;
+}
+	
+button.menu{
+	font-family: TrajanPro;
+	border: none;
+	text-align:center;
+	margin:auto;
+	margin-top:5%;
+	width: 250px;
+	padding: 12px;
+	background-color: #000000;
+	color: #000000;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.introcon{
+	background: url("./img/portadacon.jpg") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.textcon{
+	font-family: corbel;
+	padding-top: 10%;
+	margin-right: 25%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 20px;
+	color: #ffffff;
+	border-bottom: 2px solid #f1cd43
+}
+.art{
+	font-family: TrajanPro;
+	margin-top: 1%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.form-container {
+	font-family: TrajanPro;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #f1cd43;
+    width: 600px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #f1cd43;
+    text-align: center;
+}
+
+.form-group {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group label {
+	margin-bottom: 5px;
+	color: #f1cd43;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+	padding: 12px;
+	border: 1px solid #b2dfdb;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.form-group input[type="checkbox"], .form-group input[type="radio"] {
+	width: auto;
+}
+
+.form-group button {
+	margin-left:37%;
+    width: 25%;
+    padding: 12px;
+    background-color: #f1cd43;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+    }
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+	flex: 1;
+    margin-right: 10px;
+}
+
+.bus{
+	font-family: TrajanPro;
+	padding-top: 5%;
+	margin-right: 25%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 40px;
+	color: #f1cd43;
+}
+
+.textbus{
+	font-family: corbel;
+	padding-top:5%;
+	margin-right: 25%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 20px;
+	color: #ffffff;
+	border-bottom: 2px solid #f1cd43;
+}
+
+.introbus{
+	background: url("./img/busto3.png") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.introcha{
+	background: url("./img/bizarrofinal.jpg") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.introest{
+	background: url("./img/discfinal.png") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.introspeed{
+	background: url("./img/criafinal.jpg") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.introilu{
+	background: url("./img/ilufinal.jpg") no-repeat;
+	height: 400px;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+.introindex{
+	background: url("./img/bizarro-portadafinal.jpg") no-repeat;
+	width:100%;
+	background-size: cover;
+    background-position: center;
+}
+
+
+.textcon2{
+	font-family: corbel;
+	padding-top: 5%;
+	margin-right: 25%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 20px;
+	color: #ffffff;
+	border-bottom: 2px solid #f1cd43
+}
+
+.art2{
+	font-family: TrajanPro;
+	padding-bottom:2%;
+	margin-top: 1%;
+	margin-left: 2%;
+	text-align: justify;
+	font-size: 10px;
+	color: #ffffff;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+button.redesboton{
+	font-family: TrajanPro;
+	padding-left: none;
+	background-color: #000000;
+	border:none;
+	color: #f1cd43;
+	width: 50px;
+}
+
+.inicio{
+	margin-right: 40%;
+	float:left;
+}
+
+.angela{
+	font-family: TrajanPro;
+	margin:auto;
+}
+
+.gold{
+	color: #f1cd43;
+}
